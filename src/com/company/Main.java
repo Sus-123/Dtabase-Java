@@ -12,6 +12,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Lets learn jdbc");
         System.out.println("Its a fun");
+        System.out.println("Will also do some praticle");
         java.sql.Connection con = null;
         Statement st = null;
 
