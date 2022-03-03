@@ -21,6 +21,7 @@ public class Main {
 
 
         System.out.println("dcd");
+        System.out.println("ko");
        // playerService.addPlayer(player);
        //int id =  playerService.addInning("suresh6", 101);
 
