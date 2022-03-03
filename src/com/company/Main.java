@@ -17,6 +17,7 @@ public class Main {
         player.name = name;
         player.run=100;
         player.balls= 100;
+        System.out.println("demo");
 
 
         System.out.println("dcd");
