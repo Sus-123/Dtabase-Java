@@ -11,16 +11,20 @@ public class Main {
         PlayerService playerService = new PlayerService();
         playerService.makeConnection();
 
-        String name = "Virat";
+        String name = "T3P3";
         Player player = new Player();
         player.name = name;
         player.run=100;
-        player.balls= 50;
+        player.balls= 100;
 
-        playerService.addPlayer(player);
 
-       // Player p1 = playerService.getPlayer(name);
+
+       // playerService.addPlayer(player);
+       //int id =  playerService.addInning("suresh6", 101);
+
+        int  run  = playerService.getPlayer("Pak");
        // System.out.println(p1.name + " " + p1.run + " " + p1.balls);
+         System.out.println(run);
     }
 
 
